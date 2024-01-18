@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.card{
+    background-color: grey;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.display{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.display input{
+    border: none;
+    text-align: end;
+    font-size: 40px;
+    width: 90%;
+    outline: none;
+}
+.button{
+    height: 70%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.tombol-kiri{
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.tombol{
+    background-color: white;
+    border:none;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    cursor: pointer;   
+}
+.tombol-kanan{
+    width: 30%;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;    
+}
+
+
